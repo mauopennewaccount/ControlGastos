@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Control de Gastos</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_incomes">Ingresos</string>
+    <string name="nav_expenses">Gastos</string>
+    <string name="nav_categories">Categorías</string>
+    <string name="nav_periods">Períodos</string>
+    <string name="nav_reports">Reportes</string>
+    
+    <!-- Common -->
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="add">Agregar</string>
+    <string name="search">Buscar</string>
+    <string name="confirm_delete">¿Está seguro de eliminar este registro?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    
+    <!-- Categories -->
+    <string name="category_name">Nombre de la categoría</string>
+    <string name="subcategory_name">Nombre de la subcategoría</string>
+    <string name="add_category">Agregar Categoría</string>
+    <string name="add_subcategory">Agregar Subcategoría</string>
+    <string name="select_category">Seleccionar Categoría</string>
+    <string name="manage_categories">Administrar Categorías</string>
+    <string name="manage_subcategories">Administrar Subcategorías</string>
+    
+    <!-- Incomes -->
+    <string name="income_type">Tipo de ingreso</string>
+    <string name="income_card">Tarjeta</string>
+    <string name="income_wallet">Billetera</string>
+    <string name="income_coins">Monedas</string>
+    <string name="add_income">Agregar Ingreso</string>
+    
+    <!-- Expenses -->
+    <string name="expense_description">Descripción</string>
+    <string name="expense_amount">Cantidad</string>
+    <string name="expense_additional">Descripción adicional</string>
+    <string name="add_expense">Agregar Gasto</string>
+    
+    <!-- Status -->
+    <string name="status_pending">Pendiente</string>
+    <string name="status_paid">Pagado</string>
+    <string name="status_inactive">Inactivo</string>
+    <string name="status">Estado</string>
+    
+    <!-- Periods -->
+    <string name="period_name">Nombre del período</string>
+    <string name="period_start">Fecha de inicio</string>
+    <string name="period_end">Fecha de fin</string>
+    <string name="add_period">Agregar Período</string>
+    <string name="clone_period">Clonar Período</string>
+    <string name="select_period">Seleccionar Período</string>
+    
+    <!-- Reports -->
+    <string name="generate_report">Generar Reporte</string>
+    <string name="report_pdf">Reporte PDF</string>
+    <string name="report_excel">Reporte Excel</string>
+    <string name="report_type">Tipo de reporte</string>
+    
+    <!-- Date -->
+    <string name="date">Fecha</string>
+    <string name="amount">Monto</string>
+    <string name="description">Descripción</string>
+    
+    <!-- Summary -->
+    <string name="total_income">Total Ingresos</string>
+    <string name="total_expenses">Total Gastos</string>
+    <string name="balance">Balance</string>
+</resources>
