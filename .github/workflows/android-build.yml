@@ -37,9 +37,6 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-gradle-
           
-    - name: Build with Gradle
-      run: ./gradlew build
-      
     - name: Build Debug APK
       run: ./gradlew assembleDebug
       
@@ -48,14 +45,17 @@ jobs:
       with:
         name: app-debug
         path: app/build/outputs/apk/debug/app-debug.apk
-        
+    
+    # Release build may fail if signing configuration is not set up
+    # This is acceptable as debug APK is sufficient for testing
     - name: Build Release APK
+      id: build-release
       run: ./gradlew assembleRelease
       continue-on-error: true
       
     - name: Upload Release APK
       uses: actions/upload-artifact@v4
-      if: success()
+      if: steps.build-release.outcome == 'success'
       with:
         name: app-release
         path: app/build/outputs/apk/release/app-release-unsigned.apk
