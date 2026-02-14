@@ -1,6 +1,20 @@
 # ControlGastos
 Aplicación Android para administrar gastos personales
 
+## 🔄 Copiar Este Proyecto a Tu Repositorio
+
+¿Quieres usar este proyecto como base? Puedes copiarlo fácilmente a tu propio repositorio:
+
+**Guía Rápida**: [QUICK_MIRROR_GUIDE.md](QUICK_MIRROR_GUIDE.md)
+**Guía Completa**: [MIRROR_REPOSITORY.md](MIRROR_REPOSITORY.md)
+
+```bash
+# Método más rápido (copia todo el historial)
+./mirror-repository.sh https://github.com/tuusuario/tu-repo.git
+```
+
+---
+
 ## 📱 Características
 
 ### Gestión Completa de Finanzas Personales
