@@ -1,17 +1,20 @@
 # ControlGastos
 Aplicación Android para administrar gastos personales
 
-## 🔄 Copiar Este Proyecto a Tu Repositorio
+## 🔄 ¿Cómo Envío Este Proyecto a Otro Repositorio?
 
-¿Quieres usar este proyecto como base? Puedes copiarlo fácilmente a tu propio repositorio:
-
-**Guía Rápida**: [QUICK_MIRROR_GUIDE.md](QUICK_MIRROR_GUIDE.md)
-**Guía Completa**: [MIRROR_REPOSITORY.md](MIRROR_REPOSITORY.md)
-
+### ⚡ Respuesta Rápida
 ```bash
-# Método más rápido (copia todo el historial)
 ./mirror-repository.sh https://github.com/tuusuario/tu-repo.git
 ```
+
+### 📖 Guías Disponibles
+- **[COMO_ENVIAR.md](COMO_ENVIAR.md)** ⭐ **EMPIEZA AQUÍ** - Respuesta directa en español
+- **[QUICK_MIRROR_GUIDE.md](QUICK_MIRROR_GUIDE.md)** - Guía rápida (2 min)
+- **[MIRROR_REPOSITORY.md](MIRROR_REPOSITORY.md)** - Guía completa con 4 métodos
+- **[MIRROR_EXAMPLE.md](MIRROR_EXAMPLE.md)** - Ejemplo paso a paso
+
+**💡 Lee [COMO_ENVIAR.md](COMO_ENVIAR.md) para instrucciones completas en español**
 
 ---
 

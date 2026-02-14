@@ -1,5 +1,11 @@
 # 📚 Índice de Documentación - ControlGastos
 
+## 🔄 ¿Cómo Envío el Proyecto a Otro Repositorio?
+
+**⭐ RESPUESTA DIRECTA:** Lee **[COMO_ENVIAR.md](COMO_ENVIAR.md)**
+
+---
+
 ## Guías para Copiar/Migrar el Repositorio
 
 Este proyecto incluye múltiples opciones para copiar el repositorio completo a tu propia cuenta.
@@ -9,9 +15,10 @@ Este proyecto incluye múltiples opciones para copiar el repositorio completo a 
 ## 🚀 Inicio Rápido
 
 **¿Primera vez? Empieza aquí:**
-1. Lee: [QUICK_MIRROR_GUIDE.md](QUICK_MIRROR_GUIDE.md) (2 minutos)
-2. Ejecuta: `./mirror-repository.sh tu-repo-url`
-3. ¡Listo!
+1. Lee: [COMO_ENVIAR.md](COMO_ENVIAR.md) **(NUEVO - en español)** ⭐
+2. O usa: [QUICK_MIRROR_GUIDE.md](QUICK_MIRROR_GUIDE.md) (2 minutos)
+3. Ejecuta: `./mirror-repository.sh tu-repo-url`
+4. ¡Listo!
 
 ---
 
@@ -21,7 +28,8 @@ Este proyecto incluye múltiples opciones para copiar el repositorio completo a 
 
 | Documento | Descripción | Tiempo de Lectura | Para Quién |
 |-----------|-------------|-------------------|------------|
-| **[QUICK_MIRROR_GUIDE.md](QUICK_MIRROR_GUIDE.md)** | Guía rápida con lo esencial | 2 min | Todos - Empieza aquí |
+| **[COMO_ENVIAR.md](COMO_ENVIAR.md)** ⭐ | Respuesta directa en español | 3 min | **Todos - Empieza aquí** |
+| **[QUICK_MIRROR_GUIDE.md](QUICK_MIRROR_GUIDE.md)** | Guía rápida con lo esencial | 2 min | Usuarios rápidos |
 | **[MIRROR_REPOSITORY.md](MIRROR_REPOSITORY.md)** | Guía completa con 4 métodos | 10 min | Lectura completa |
 | **[MIRROR_EXAMPLE.md](MIRROR_EXAMPLE.md)** | Ejemplo paso a paso con capturas | 8 min | Principiantes |
 
