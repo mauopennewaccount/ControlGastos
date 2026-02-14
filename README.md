@@ -1,5 +1,42 @@
 # ControlGastos
-Aplicación android para administrar gastos personales
+Aplicación Android para administrar gastos personales
+
+## 🔄 ¿Cómo Envío Este Proyecto a Otro Repositorio?
+
+### ⚡ Respuesta Rápida
+```bash
+./mirror-repository.sh https://github.com/tuusuario/tu-repo.git
+```
+
+### 📖 Guías Disponibles
+- **[COMO_ENVIAR.md](COMO_ENVIAR.md)** ⭐ **EMPIEZA AQUÍ** - Respuesta directa en español
+- **[QUICK_MIRROR_GUIDE.md](QUICK_MIRROR_GUIDE.md)** - Guía rápida (2 min)
+- **[MIRROR_REPOSITORY.md](MIRROR_REPOSITORY.md)** - Guía completa con 4 métodos
+- **[MIRROR_EXAMPLE.md](MIRROR_EXAMPLE.md)** - Ejemplo paso a paso
+
+**💡 Lee [COMO_ENVIAR.md](COMO_ENVIAR.md) para instrucciones completas en español**
+
+---
+
+## 📱 Características
+
+### Gestión Completa de Finanzas Personales
+- **Registro de Ingresos**: Tarjeta, billetera, monedas
+- **Control de Gastos**: Con categorías, subcategorías y estados (pendiente, pagado, inactivo)
+- **Categorización**: Sistema completo de categorías y subcategorías
+- **Períodos**: Organiza tus registros por rangos de fechas
+- **Clonado de Períodos**: Duplica períodos completos con todos sus registros
+- **Reportes**: Exporta a PDF y Excel
+- **Dashboard**: Visualiza tu balance, ingresos y gastos totales
+
+## 🏗️ Arquitectura
+
+- **Lenguaje**: Kotlin
+- **Base de Datos**: Room (SQLite)
+- **UI**: Material Design 3 con Navigation Drawer
+- **Arquitectura**: MVVM con Repository Pattern
+- **Programación Asíncrona**: Kotlin Coroutines
+- **Observación de Datos**: LiveData
 
 ## 🚀 Compilación Automática con GitHub Actions
 
@@ -30,17 +67,82 @@ Este repositorio incluye un workflow de GitHub Actions que compila automáticame
    - En la sección "Artifacts", encontrarás los APKs generados
    - Descarga `app-debug` para instalar en tu dispositivo Android
 
-### Requisitos del Proyecto
+### Instalación en tu Dispositivo
 
-Para que el workflow funcione correctamente, tu proyecto Android debe:
-- Estar configurado con Gradle
-- Incluir el archivo `gradlew` (Gradle Wrapper)
-- Tener la estructura estándar de proyecto Android con la carpeta `app/`
+1. Descarga el APK desde GitHub Actions
+2. Transfiere el archivo a tu dispositivo Android
+3. Habilita "Instalar desde fuentes desconocidas" en la configuración
+4. Abre el APK y sigue las instrucciones de instalación
 
-### Configuración
+## 🛠️ Compilación Local
 
-El workflow está configurado para:
-- Usar JDK 17
-- Instalar Android SDK automáticamente
-- Cachear dependencias de Gradle para compilaciones más rápidas
-- Generar APKs de debug y release
+### Requisitos
+
+- Android Studio Arctic Fox o superior
+- JDK 11
+- Android SDK 33
+- Gradle 8.11.1
+
+### Pasos
+
+1. Clona el repositorio:
+```bash
+git clone https://github.com/mauopennewaccount/ControlGastos.git
+```
+
+2. Abre el proyecto en Android Studio
+
+3. Sincroniza Gradle:
+```bash
+./gradlew build
+```
+
+4. Ejecuta en un emulador o dispositivo físico
+
+## 📋 Requisitos del Sistema
+
+- **Android**: Versión mínima 7.0 (API 24)
+- **Android**: Versión objetivo 13 (API 33)
+- **Espacio**: ~30 MB
+
+## 📖 Documentación Completa
+
+Para detalles técnicos, arquitectura y guía de desarrollo, consulta [DOCUMENTATION.md](DOCUMENTATION.md)
+
+## 🗂️ Estructura de la Base de Datos
+
+- **Categories**: Categorías principales
+- **Subcategories**: Subcategorías asociadas
+- **Periods**: Períodos de tiempo
+- **Income**: Registros de ingresos
+- **Expense**: Registros de gastos
+
+## 🎨 Capturas de Pantalla
+
+_(Las capturas de pantalla se añadirán una vez compilada la aplicación)_
+
+## 🤝 Contribuir
+
+Las contribuciones son bienvenidas. Por favor:
+
+1. Haz fork del repositorio
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
+## 📝 Licencia
+
+Este proyecto está bajo la licencia especificada en el archivo [LICENSE](LICENSE).
+
+## 👤 Autor
+
+**mauopennewaccount**
+
+## 📞 Soporte
+
+Si encuentras algún problema o tienes sugerencias, por favor abre un [issue](https://github.com/mauopennewaccount/ControlGastos/issues).
+
+---
+
+⭐ Si te gusta este proyecto, no olvides darle una estrella en GitHub!

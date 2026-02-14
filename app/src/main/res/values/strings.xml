@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Control de Gastos</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_income">Ingresos</string>
+    <string name="nav_expenses">Gastos</string>
+    <string name="nav_categories">Categorías</string>
+    <string name="nav_periods">Períodos</string>
+    <string name="nav_reports">Reportes</string>
+    
+    <!-- Common -->
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="add">Agregar</string>
+    <string name="search">Buscar</string>
+    <string name="ok">Aceptar</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    
+    <!-- Income -->
+    <string name="income_title">Ingresos</string>
+    <string name="add_income">Agregar Ingreso</string>
+    <string name="income_type">Tipo de Ingreso</string>
+    <string name="income_type_card">Tarjeta</string>
+    <string name="income_type_wallet">Billetera</string>
+    <string name="income_type_coins">Monedas</string>
+    <string name="income_amount">Cantidad</string>
+    <string name="income_description">Descripción</string>
+    <string name="income_date">Fecha</string>
+    
+    <!-- Expense -->
+    <string name="expense_title">Gastos</string>
+    <string name="add_expense">Agregar Gasto</string>
+    <string name="expense_category">Categoría</string>
+    <string name="expense_subcategory">Subcategoría</string>
+    <string name="expense_description">Descripción</string>
+    <string name="expense_amount">Cantidad</string>
+    <string name="expense_additional_description">Descripción Adicional</string>
+    <string name="expense_status">Estado</string>
+    <string name="expense_status_pending">Pendiente</string>
+    <string name="expense_status_paid">Pagado</string>
+    <string name="expense_status_inactive">Inactivo</string>
+    <string name="expense_date">Fecha</string>
+    
+    <!-- Category -->
+    <string name="category_title">Categorías</string>
+    <string name="add_category">Agregar Categoría</string>
+    <string name="category_name">Nombre de Categoría</string>
+    <string name="subcategory_title">Subcategorías</string>
+    <string name="add_subcategory">Agregar Subcategoría</string>
+    <string name="subcategory_name">Nombre de Subcategoría</string>
+    <string name="select_category">Seleccionar Categoría</string>
+    
+    <!-- Period -->
+    <string name="period_title">Períodos</string>
+    <string name="add_period">Agregar Período</string>
+    <string name="period_name">Nombre del Período</string>
+    <string name="period_start_date">Fecha de Inicio</string>
+    <string name="period_end_date">Fecha de Fin</string>
+    <string name="clone_period">Clonar Período</string>
+    <string name="clone_period_confirm">¿Desea clonar este período?</string>
+    
+    <!-- Reports -->
+    <string name="reports_title">Reportes</string>
+    <string name="generate_pdf">Generar PDF</string>
+    <string name="generate_excel">Generar Excel</string>
+    <string name="select_period">Seleccionar Período</string>
+    <string name="report_generated">Reporte generado exitosamente</string>
+    <string name="report_error">Error al generar el reporte</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_title">Panel de Control</string>
+    <string name="total_income">Ingresos Totales</string>
+    <string name="total_expenses">Gastos Totales</string>
+    <string name="balance">Balance</string>
+    <string name="pending_expenses">Gastos Pendientes</string>
+    <string name="paid_expenses">Gastos Pagados</string>
+    
+    <!-- Messages -->
+    <string name="item_saved">Guardado exitosamente</string>
+    <string name="item_deleted">Eliminado exitosamente</string>
+    <string name="confirm_delete">¿Está seguro de eliminar este registro?</string>
+    <string name="error_save">Error al guardar</string>
+    <string name="error_delete">Error al eliminar</string>
+    <string name="error_empty_fields">Por favor complete todos los campos requeridos</string>
+    <string name="no_period_selected">Debe seleccionar un período</string>
+    
+    <!-- Permissions -->
+    <string name="permission_storage">Se requiere permiso de almacenamiento para guardar reportes</string>
+</resources>
